@@ -22,26 +22,23 @@ Local WP requires several additional libraries to run on Ubuntu. Follow the step
 
 2. **Install `libncurses5`**
    Download and install the `libncurses5` package:
-
-```bash
-curl -O http://launchpadlibrarian.net/648013227/libncurses5_6.4-2_amd64.deb
-sudo dpkg -i libncurses5_6.4-2_amd64.deb
-```
+   ```bash
+   curl -O http://launchpadlibrarian.net/648013227/libncurses5_6.4-2_amd64.deb
+   sudo dpkg -i libncurses5_6.4-2_amd64.deb
+   ```
 
 3. **Install `libaio1`**
    Download and install the `libaio1` package:
-
-```bash
-curl -O http://launchpadlibrarian.net/646633572/libaio1_0.3.113-4_amd64.deb
-sudo dpkg -i libaio1_0.3.113-4_amd64.deb
-```
+   ```bash
+   curl -O http://launchpadlibrarian.net/646633572/libaio1_0.3.113-4_amd64.deb
+   sudo dpkg -i libaio1_0.3.113-4_amd64.deb
+   ```
 
 4. **Install `libnss3-tools`**
    Use the following command to install `libnss3-tools` via apt:
-
-```bash
-sudo apt install libnss3-tools
-```
+   ```bash
+   sudo apt install libnss3-tools
+   ```
 
 ---
 
